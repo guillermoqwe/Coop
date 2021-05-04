@@ -8,33 +8,6 @@
  *
  * @author Guillermolp
  */
-public abstract class Perosa implements Banco{
-        protected String Cuentas;
-
-    public Perosa(String Cuentas) {
-        this.Cuentas = Cuentas;
-    }
+public abstract class Perosa  {
     
-  public abstract String MostrarUsuario();
-public abstract void setCuentas(String cuentas );  
-
-    @Override
-    public int setId(int id) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public String getCuenta() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public void perfil() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public void estadodecuenta() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
 }

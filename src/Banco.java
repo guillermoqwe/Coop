@@ -9,10 +9,13 @@
  * @author Guillermolp
  */
 public interface Banco {
-    public int setId(int id);
-    public String getCuenta();
-        public void perfil();
-        public void estadodecuenta();
+    public String  getNombre();
+    public void setNombre();
+    public  int getEdad();
+    public void setEdad();
+    public String getNumero();
+    public void setNumero();   
+        
     
    
 }
